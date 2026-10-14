@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Social Meta Tags -->
+  <title>Sergio Patón García — Software Engineer & Applied Architectures</title>
+  <meta name="description" content="Portafolio profesional de Sergio Patón García. Desarrollador Full Stack especializado en APIs asíncronas de alto rendimiento (FastAPI, Node.js, Spring Boot), Clean Architecture, desarrollo asistido por IA (Aider CLI con modelos gratuitos de OpenRouter) y cumplimiento normativo (VeriFactu).">
+  <meta name="keywords" content="Sergio Paton Garcia, Desarrollador Full Stack, Software Engineer, FastAPI, Node.js, Clean Architecture, Aider, OpenRouter, VeriFactu, Electron, Python, DAW, Valencia">
+  <meta name="author" content="Sergio Patón García">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sergiopaton.dev">
+
+  <!-- Open Graph / LinkedIn / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sergio Patón García — Software Engineer">
+  <meta property="og:description" content="APIs asíncronas de alto rendimiento, Clean Architecture, desarrollo ágil con Aider CLI e integraciones de IA.">
+  <meta property="og:locale" content="es_ES">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sergio Patón García — Software Engineer Portfolio">
+  <meta name="twitter:description" content="Desarrollo Backend de Alto Rendimiento, Clean Architecture y desarrollo acelerado con IA (Aider / OpenRouter).">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon Monogram SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='16' fill='%23ededed'/><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='900' font-size='46' fill='%23000000'>SP</text></svg>">
+</head>
+<body>
+
+  <!-- Minimalist Technical Grid Background -->
+  <div class="ambient-grid" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION (Minimalist Vercel/Linear Style)
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-content">
+      <a href="#hero" class="brand-logo" id="nav-brand-logo" aria-label="Ir al inicio">
+        <div class="logo-badge">SP</div>
+        <div class="brand-text">
+          <span class="brand-name">Sergio Patón</span>
+          <span class="brand-sep">/</span>
+          <span class="brand-role">Software Engineer</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Inicio</a></li>
+          <li><a href="#aider-showcase" class="nav-link">Aider & IA</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/SergioPaton" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="nav-github" title="Perfil de GitHub">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/sergio-patón-garcía-b43706242" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="nav-linkedin" title="Perfil de LinkedIn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="CV_Sergio_Paton.pdf" download class="btn btn-primary btn-sm" id="nav-cv" title="Descargar Currículum">
+          <span>CV.pdf ↓</span>
+        </a>
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Abrir menú de navegación">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ==========================================================================
+         HERO SECTION (High-Tech Minimalist Composition)
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="status-dot"></span>
+            <span>SYS_STATUS: OPERATIONAL // FULL_STACK_ENGINEER</span>
+          </div>
+
+          <h1 class="hero-title">
+            Arquitectura Limpia &amp; Software de Alto Rendimiento.
+          </h1>
+
+          <p class="hero-subtitle">
+            Hola, soy <strong>Sergio Patón García</strong>. Especializado en APIs asíncronas (<strong>FastAPI, Node.js, Spring Boot</strong>), Clean Architecture e ingeniería asistida por IA con <strong>Aider CLI &amp; OpenRouter</strong>.
+          </p>
+
+          <p class="hero-description">
+            Formación técnica oficial en <strong>Desarrollo de Aplicaciones Web (DAW)</strong> con experiencia práctica en software de cumplimiento normativo (<strong>VeriFactu</strong>), geoprocesamiento espacial (<strong>GIS</strong>) y agentes autónomos de Inteligencia Artificial.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#proyectos" class="btn btn-primary" id="hero-btn-projects">
+              <span>Explorar Proyectos →</span>
+            </a>
+            <a href="#aider-showcase" class="btn btn-secondary" id="hero-btn-aider">
+              <span>Ver Flujo Aider &amp; IA</span>
+            </a>
+            <a href="CV_Sergio_Paton.pdf" download class="btn btn-secondary" id="hero-btn-cv" title="Descargar Currículum en PDF">
+              <span>CV.pdf ↓</span>
+            </a>
+            <a href="https://github.com/SergioPaton" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="hero-btn-github" title="Ver GitHub">
+              <span>GitHub ↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/sergio-patón-garcía-b43706242" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="hero-btn-linkedin" title="Ver LinkedIn">
+              <span>LinkedIn ↗</span>
+            </a>
+          </div>
+
+          <!-- Dynamic Hero Metrics Row (Bento Grid) -->
+          <div class="hero-stats-row" id="hero-stats-row">
+            <!-- Populated via data.js -->
+          </div>
+        </div>
+
+        <!-- Profile Bento Card -->
+        <div class="hero-visual">
+          <div class="hero-profile-card">
+            <div class="card-header-status">
+              <span class="badge-status">
+                <span class="status-dot"></span>
+                <span>DISPONIBLE_PARA_RETOS</span>
+              </span>
+              <span class="mono-tag">VALENCIA_ES</span>
+            </div>
+
+            <div class="avatar-wrapper">
+              <div class="avatar-initials">SP</div>
+              <div class="avatar-info">
+                <h3>Sergio Patón García</h3>
+                <p>Full Stack &amp; Applied AI Engineer</p>
+              </div>
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6;">
+              "Ingeniería de software con Clean Architecture desacoplada, tipado estricto y aceleración en terminal con Aider."
+            </p>
+
+            <div class="profile-tech-pills">
+              <span class="tech-pill">FastAPI</span>
+              <span class="tech-pill">Python Async</span>
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">Aider CLI</span>
+              <span class="tech-pill">Clean Arch</span>
+              <span class="tech-pill">VeriFactu</span>
+              <span class="tech-pill">React 19</span>
+              <span class="tech-pill">PostgreSQL</span>
+            </div>
+
+            <div class="profile-card-footer">
+              <span class="mono-tag">// DAW_CERTIFIED</span>
+              <div style="display: flex; gap: 0.85rem;">
+                <a href="https://github.com/SergioPaton" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-weight: 500;">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/sergio-patón-garcía-b43706242" target="_blank" rel="noopener noreferrer" style="color: var(--text-primary); font-weight: 500;">LinkedIn ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AIDER & AI-ASSISTED DEVELOPMENT (MINIMALIST TERMINAL SHOWCASE)
+         ========================================================================== -->
+    <section class="aider-section" id="aider-showcase">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 01_METODOLOGÍA_AI_FIRST</span>
+          <h2 class="section-title">Desarrollo Acelerado con Aider &amp; OpenRouter</h2>
+          <p class="section-subtitle">
+            En el proyecto <strong>Fuerza Base</strong>, integro <strong>Aider CLI</strong> directamente en terminal conectado a modelos gratuitos de <strong>OpenRouter</strong>. Esto permite aplicar Clean Architecture estricta y tests automatizados con máxima velocidad y cero costes de API.
+          </p>
+        </div>
+
+        <!-- Minimalist High-Tech Terminal -->
+        <div class="terminal-wrapper" id="aider-terminal">
+          <div class="terminal-topbar">
+            <div class="terminal-controls">
+              <span class="term-dot"></span>
+              <span class="term-dot"></span>
+              <span class="term-dot"></span>
+            </div>
+            <div class="terminal-title">
+              <span>sergio@spg-box: ~/fuerzabase (aider + openrouter/free-tier)</span>
+            </div>
+            <div class="terminal-actions-bar">
+              <button class="term-btn active" data-scenario="architecture">clean_architecture.py</button>
+              <button class="term-btn" data-scenario="testing">test_suite.py</button>
+              <button class="term-btn" data-scenario="commit">git_commit.sh</button>
+            </div>
+          </div>
+          <div class="terminal-body" id="terminal-body">
+            <!-- Loaded dynamically from app.js -->
+          </div>
+        </div>
+
+        <!-- 3 Bento Pillars -->
+        <div class="aider-benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-num">// 01 ARQUITECTURA</div>
+            <h4>Dominio Puro &amp; Desacoplado</h4>
+            <p>Aider respeta la regla de dependencia de Clean Architecture: el dominio permanece 100% aislado de frameworks y base de datos.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-num">// 02 EFICIENCIA</div>
+            <h4>Velocidad x3 con Rigor</h4>
+            <p>Inferencia rápida con modelos gratuitos a través de OpenRouter para generar esquemas Pydantic v2 y puertos abstractos sin coste de API.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-num">// 03 VERIFICACIÓN</div>
+            <h4>Testing &amp; Cobertura</h4>
+            <p>Bucle de retroalimentación inmediata: los tests asíncronos en PyTest y Playwright validan cada componente antes de cualquier commit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROJECTS SHOWCASE SECTION (BENTO GRID)
+         ========================================================================== -->
+    <section class="projects-section" id="proyectos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 02_PORTFOLIO_ENGINEERING</span>
+          <h2 class="section-title">Proyectos Destacados de Ingeniería</h2>
+          <p class="section-subtitle">
+            Sistemas analizados y construidos: desde facturación criptográfica homologada (VeriFactu) hasta microservicios espaciales GIS y SaaS deportivos.
+          </p>
+        </div>
+
+        <!-- Minimalist Filter Bar -->
+        <div class="filter-container" id="filter-container">
+          <!-- Populated via data.js -->
+        </div>
+
+        <!-- Dynamic Bento Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated via app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SKILLS & COMPETENCIES SECTION
+         ========================================================================== -->
+    <section class="skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 03_TECHNICAL_STACK</span>
+          <h2 class="section-title">Competencias y Especialidades</h2>
+          <p class="section-subtitle">
+            Inventario técnico consolidado en formación reglada DAW y entornos empresariales de producción.
+          </p>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Populated via app.js -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       PROJECT DETAILS MODAL (Linear Minimalist Dialog)
+       ========================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div>
+          <span class="mono-tag" id="modal-badge">// PROJECT_SPEC</span>
+          <h2 id="modal-title" style="font-size: 1.4rem; margin-top: 0.25rem;">Título del Proyecto</h2>
+        </div>
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Cerrar modal">ESC ✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <h4 class="modal-section-title">// 01_DESCRIPCION_TECNICA</h4>
+          <p id="modal-desc" style="font-size: 0.9rem; line-height: 1.65; color: var(--text-secondary);"></p>
+        </div>
+
+        <!-- AI Highlight Box -->
+        <div id="modal-ai-highlight" style="display: none;">
+          <h4 class="modal-section-title" style="color: var(--accent-lime);">// 02_INTEGRACION_AIDER_OPENROUTER</h4>
+          <div class="modal-architecture-box" id="modal-ai-desc" style="border-left: 2px solid var(--accent-lime);"></div>
+        </div>
+
+        <div>
+          <h4 class="modal-section-title">// 03_ARQUITECTURA_Y_PATRONES</h4>
+          <div class="modal-architecture-box" id="modal-arch"></div>
+        </div>
+
+        <div>
+          <h4 class="modal-section-title">// 04_LOGROS_CLAVE</h4>
+          <ul class="modal-highlights-list" id="modal-highlights"></ul>
+        </div>
+
+        <div>
+          <h4 class="modal-section-title">// 05_STACK_TECNOLOGICO</h4>
+          <div class="profile-tech-pills" id="modal-tags"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FOOTER (Minimalist Clean Status Bar)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-status">
+        <span class="status-dot"></span>
+        <span>SYS_STATUS: ALL SYSTEMS NOMINAL — © 2026 SERGIO PATÓN GARCÍA</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">↑ INICIO</a>
+        <a href="https://www.linkedin.com/in/sergio-patón-garcía-b43706242" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+        <a href="https://github.com/SergioPaton" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+        <a href="CV_Sergio_Paton.pdf" download>CV.PDF ↓</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts: Data & Application Logic -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
