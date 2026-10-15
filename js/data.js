@@ -1,9 +1,9 @@
 /**
  * Portafolio de Sergio Patón García
- * Datos estructurados de proyectos, tecnologías y trayectoria.
+ * Datos estructurados bilingües (Español / English) de proyectos, tecnologías y trayectoria.
  */
 
-const PORTFOLIO_DATA = {
+const PORTFOLIO_DATA_ES = {
   profile: {
     name: "Sergio Patón García",
     title: "Desarrollador Full Stack & Software Engineer",
@@ -52,11 +52,7 @@ const PORTFOLIO_DATA = {
         "Frontend reactivo con React 18, Vite y TanStack Query v5 para sincronización de estado."
       ],
       color: "#6366f1",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "verifactu-desktop",
@@ -75,11 +71,7 @@ const PORTFOLIO_DATA = {
         "Batería exhaustiva de pruebas end-to-end automatizadas con Playwright."
       ],
       color: "#06b6d4",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "bot-ig-funnel",
@@ -98,11 +90,7 @@ const PORTFOLIO_DATA = {
         "Gestión robusta de rate limits y reintentos automáticos."
       ],
       color: "#ec4899",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "api-geolocalizacion",
@@ -121,11 +109,7 @@ const PORTFOLIO_DATA = {
         "Generación de reportes de auditoría horaria y suite de pruebas en PyTest."
       ],
       color: "#10b981",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "running-tracker",
@@ -144,11 +128,7 @@ const PORTFOLIO_DATA = {
         "Pruebas unitarias de cobertura con Jest asegurando la exactitud de los cálculos deportivos."
       ],
       color: "#f59e0b",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "cocina-paton",
@@ -167,11 +147,7 @@ const PORTFOLIO_DATA = {
         "Impacto positivo directo en el ahorro del hogar y reducción del desperdicio de comida."
       ],
       color: "#8b5cf6",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "fantasy-manager",
@@ -190,11 +166,7 @@ const PORTFOLIO_DATA = {
         "Ejecución 100% local e independiente sin necesidad de servidores externos."
       ],
       color: "#14b8a6",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "md2pdf-cli",
@@ -213,11 +185,7 @@ const PORTFOLIO_DATA = {
         "Generación vectorial sin pérdida de resolución para impresión profesional."
       ],
       color: "#3b82f6",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     },
     {
       id: "websolutions-seo",
@@ -236,11 +204,7 @@ const PORTFOLIO_DATA = {
         "Diseño 100% responsivo y fluido mediante CSS Grid y Flexbox."
       ],
       color: "#f97316",
-      links: {
-        demo: "#",
-        github: "https://github.com",
-        docs: "#"
-      }
+      links: { demo: "#", github: "https://github.com", docs: "#" }
     }
   ],
 
@@ -378,4 +342,456 @@ const PORTFOLIO_DATA = {
       details: "Certificación oficial para docencia técnica deportiva y artes marciales."
     }
   ]
+};
+
+const PORTFOLIO_DATA_EN = {
+  profile: {
+    name: "Sergio Patón García",
+    title: "Full Stack Developer & Software Engineer",
+    subtitle: "Specialized in Asynchronous APIs, Clean Architecture & Applied AI",
+    location: "Mislata, Valencia, Spain",
+    email: "sergio.97pg@gmail.com",
+    phone: "(+34) 648 00 22 98",
+    linkedin: "https://www.linkedin.com/in/sergio-patón-garcía-b43706242",
+    github: "https://github.com/SergioPaton",
+    status: "Available for new opportunities",
+    summary: "Full Stack Developer with official technical credentials in Web Application Development (DAW) and hands-on experience in enterprise, regulatory, and artificial intelligence software. Specialized in designing high-performance asynchronous APIs (FastAPI, Node.js, Spring Boot), rigorous implementation of Clean Architecture / DDD, LLM integration (Gemini, Meta Graph API), and fast terminal workflow with Aider (leveraging free OpenRouter models)."
+  },
+
+  metrics: [
+    { value: "09", label: "AUDITED_PROJECTS", icon: "folder-check" },
+    { value: "04", label: "ENTERPRISE_LEVEL", icon: "layers" },
+    { value: "100%", label: "CLEAN_ARCHITECTURE", icon: "shield-check" },
+    { value: "FREE", label: "AIDER_OPENROUTER", icon: "cpu" }
+  ],
+
+  categories: [
+    { id: "all", label: "All", count: 9 },
+    { id: "featured", label: "Featured", count: 5 },
+    { id: "ai", label: "AI & Aider", count: 4 },
+    { id: "backend", label: "Backend & APIs", count: 6 },
+    { id: "desktop", label: "Legal & Desktop", count: 3 },
+    { id: "sports", label: "Sports & Algorithms", count: 3 }
+  ],
+
+  projects: [
+    {
+      id: "fuerza-base",
+      title: "Fuerza Base",
+      badge: "Sports SaaS & High Performance",
+      featured: true,
+      categories: ["featured", "ai", "backend", "sports"],
+      shortDesc: "End-to-end sports load prescription and adaptive regulation platform with strict clean architecture and rapid terminal development using Aider with free OpenRouter models.",
+      fullDesc: "Fuerza Base is a SaaS platform engineered for coaches and athletes who require mathematical prescription and dynamic regulation of strength training. Built from day one using decoupled Clean Architecture across 4 concentric layers, guaranteeing complete framework independence within the core domain.",
+      aiHighlight: "Iteratively built and refactored using Aider CLI connected to free models via OpenRouter. Aider served as an in-terminal architecture assistant to accelerate decoupled use case creation, Pydantic v2 schema generation, and pytest test coverage with zero API costs.",
+      architecture: "Clean Architecture (Pure domain with dataclasses -> Use cases with ports/interfaces -> Infrastructure with SQLAlchemy -> HTTP adapters with FastAPI v1/v2).",
+      tags: ["Python 3.11", "FastAPI", "Aider (OpenRouter Free)", "SQLAlchemy", "React 18", "TanStack Query", "Tailwind CSS", "Alembic", "Pydantic v2", "PyTest"],
+      highlights: [
+        "AI-assisted agile development using Aider CLI adhering to Conventional Commits.",
+        "Pure domain free of external framework and ORM library dependencies.",
+        "Automated prescription and dynamic adaptive load regulation based on athlete feedback.",
+        "Reactive frontend with React 18, Vite, and TanStack Query v5 for seamless state synchronization."
+      ],
+      color: "#6366f1",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "verifactu-desktop",
+      title: "VeriFactu Desktop",
+      badge: "Enterprise & Legal Software (RD 1007/2023)",
+      featured: true,
+      categories: ["featured", "backend", "desktop"],
+      shortDesc: "Cross-platform desktop application for issuing and cryptographically signing tamper-proof electronic invoices compliant with Spanish AEAT regulations.",
+      fullDesc: "Engineered for Win o Win Consulting, this electronic invoicing system ensures strict compliance with Royal Decree 1007/2023. Implements continuous SHA-256 cryptographic hash chaining (blockchain-like chaining) to guarantee audit-proof immutability and record traceability for tax authorities.",
+      architecture: "Decoupled Desktop-Server architecture: Electron main process + local Node.js/Express REST API with Prisma ORM and secure encrypted SQLite storage.",
+      tags: ["Electron", "Node.js", "Express", "Prisma ORM", "SQLite", "SHA-256 Cryptography", "xml-crypto", "node-forge", "PDFKit", "Playwright E2E"],
+      highlights: [
+        "Continuous SHA-256 cryptographic hash chaining between consecutive invoices.",
+        "Generation and digital signing of XML (Facturae / XAdES-EPES) via node-forge.",
+        "Automated PDF invoice rendering with regulatory verification QR code.",
+        "Exhaustive automated end-to-end test suite using Playwright."
+      ],
+      color: "#06b6d4",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "bot-ig-funnel",
+      title: "Instagram Sales DM Funnel Engine",
+      badge: "Intelligent Sales Agent & Meta API",
+      featured: true,
+      categories: ["featured", "ai", "backend"],
+      shortDesc: "Customer acquisition and sales agent for Instagram Direct Messages (DMs) powered by Google Gemini SDK and a reactive web control panel.",
+      fullDesc: "Commercial automation backend connecting the official Meta Graph API with cutting-edge LLMs (Google Gemini). The agent conducts contextual customer conversations, handles sales inquiries, qualifies leads, and guides prospects through the sales funnel automatically.",
+      architecture: "Asynchronous FastAPI server connected to Meta Webhooks, with conversational processing queue and React 19 real-time monitoring dashboard.",
+      tags: ["FastAPI", "Python", "Google Gemini SDK", "Meta Graph API", "React 19", "Tailwind CSS v4", "Webhooks", "Vite", "Pydantic"],
+      highlights: [
+        "Real-time natural language processing guided by contextual business prompts.",
+        "Bidirectional integration with Instagram Direct Messages via Meta Graph API.",
+        "Interactive dashboard to monitor conversations, conversion rates, and qualified leads.",
+        "Robust rate limit management and automated retry policies."
+      ],
+      color: "#ec4899",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "api-geolocalizacion",
+      title: "Geolocation & Geofencing API",
+      badge: "GIS & High-Performance Microservice",
+      featured: true,
+      categories: ["featured", "backend"],
+      shortDesc: "Asynchronous API for worker attendance tracking through real-time spatial GPS verification against perimeter geofences.",
+      fullDesc: "Backend service developed to verify employee workday logs and physical on-site presence. Applies advanced spatial geofencing algorithms to mathematically verify whether incoming coordinates lie within designated operational perimeters.",
+      architecture: "Asynchronous microservice built with FastAPI and PostgreSQL/PostGIS using GeoAlchemy2 and Shapely, optimized with a Redis caching and rate-limiting layer.",
+      tags: ["FastAPI", "PostgreSQL", "GeoAlchemy2", "Shapely (GIS)", "Redis", "Firebase Admin", "ReportLab", "PyTest"],
+      highlights: [
+        "Spatial containment queries and polygon distance computations with GeoAlchemy2 and Shapely.",
+        "Asynchronous caching and abuse protection powered by Redis.",
+        "Automated push notifications via Firebase Admin SDK.",
+        "Time audit reporting engine and complete PyTest automated test suite."
+      ],
+      color: "#10b981",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "running-tracker",
+      title: "Running Tracker — Athletic Periodization",
+      badge: "Hexagonal Architecture & CQRS Lite",
+      featured: true,
+      categories: ["featured", "backend", "sports"],
+      shortDesc: "Comprehensive web application for runners featuring an algorithmic athletic periodization engine (4 to 24 weeks) based on lactate threshold and resting heart rate.",
+      fullDesc: "DAW intermodular flagship project. Implements a mathematical engine capable of computing training zones (Z1 to Z5) and synthesizing comprehensive training macrocycles, mesocycles, and microcycles based on the target race date.",
+      architecture: "Pure Clean Hexagonal Architecture in Node.js/Express with CQRS Lite (command/query separation) and modular persistence.",
+      tags: ["Node.js", "Express v5", "Vanilla JS ES6+", "Semantic HTML5", "Native CSS3", "Hexagonal Architecture", "CQRS Lite", "Jest"],
+      highlights: [
+        "Custom algorithmic engine for pace calculation and tailored athletic periodization.",
+        "Strict hexagonal architecture with complete database independence.",
+        "Lightweight, dependency-free client dashboard optimized with Vite.",
+        "Unit test coverage with Jest ensuring mathematical precision in athletic calculations."
+      ],
+      color: "#f59e0b",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "cocina-paton",
+      title: "Cocina Patón — Zero-Waste AI Chef",
+      badge: "Generative AI & HTMX",
+      featured: false,
+      categories: ["ai", "backend"],
+      shortDesc: "Personal digital chef generating creative, real-time recipes exclusively based on ingredients available in the user's pantry.",
+      fullDesc: "Web application targeting food waste reduction. Analyzes ingredients in the user's pantry, allergens, and available cooking time, prompting Google Gemini for viable culinary proposals with strictly typed JSON schemas.",
+      architecture: "Lightweight modular monolith with FastAPI, Jinja2, HTMX, and Alpine.js providing a reactive SPA-like user experience without heavy JS framework overhead.",
+      tags: ["FastAPI", "Google Gemini SDK", "Jinja2", "HTMX", "Alpine.js", "Tailwind CSS", "SQLite", "Alembic"],
+      highlights: [
+        "AI responses enforced with strict JSON schemas for dependable rendering.",
+        "Hyper-reactive frontend without heavy JavaScript via HTMX + Alpine.js.",
+        "Feedback loop that learns and remembers user culinary preferences.",
+        "Direct positive impact on household grocery savings and food waste minimization."
+      ],
+      color: "#8b5cf6",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "fantasy-manager",
+      title: "Fantasy Manager Desktop",
+      badge: "Computer Vision & Sports Analytics",
+      featured: false,
+      categories: ["ai", "desktop", "sports"],
+      shortDesc: "Python desktop application for financial and performance management of LaLiga Fantasy / Biwenger teams featuring optical OCR extraction.",
+      fullDesc: "Desktop tool replacing manual spreadsheets. Features a drag-and-drop zone to drop lineup and score screenshots, automatically extracting data using OpenCV and Tesseract OCR.",
+      architecture: "Native MVC desktop application in Python 3.10+ with modern CustomTkinter GUI, vision pipeline, and embedded SQLite database.",
+      tags: ["Python", "CustomTkinter (GUI)", "OpenCV", "Tesseract OCR", "Pandas", "NumPy", "SQLite", "Matplotlib"],
+      highlights: [
+        "Image preprocessing and binarization with OpenCV for reliable OCR extraction.",
+        "Vectorized financial metric computations (ROI, cost per point, net profit).",
+        "Embedded graphical visualization of market value trends.",
+        "100% local, offline execution without external server dependencies."
+      ],
+      color: "#14b8a6",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "md2pdf-cli",
+      title: "MD2PDF Premium",
+      badge: "CLI Tool & Editorial Automation",
+      featured: false,
+      categories: ["desktop"],
+      shortDesc: "Ultra-fast command-line converter transforming Markdown documents into high-quality, publication-ready vector PDFs.",
+      fullDesc: "Automation utility engineered to format resumes, technical briefs, and formal documentation with refined typography (Inter), syntax highlighting, and injectable custom CSS stylesheets.",
+      architecture: "Global Node.js CLI package orchestrating a headless browser (Google Chrome or Microsoft Edge) to render semantic HTML into pristine vector PDFs.",
+      tags: ["Node.js", "CLI", "Headless Chrome", "Editorial CSS3", "Markdown Parser", "npm link"],
+      highlights: [
+        "Automatic detection of locally installed Windows browsers without Puppeteer bloat.",
+        "Layered design system: semantic markup + base typography + custom CSS overrides.",
+        "Reusable global CLI installation across system projects via npm link.",
+        "Lossless vector output optimized for high-resolution professional printing."
+      ],
+      color: "#3b82f6",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    },
+    {
+      id: "websolutions-seo",
+      title: "WebSolutions — High-Performance & SEO SPA",
+      badge: "Vanilla Web & Accessibility",
+      featured: false,
+      categories: ["backend"],
+      shortDesc: "Native web architecture showcase featuring a custom Vanilla JS SPA router, strict WAI-ARIA accessibility, and comprehensive on-page SEO.",
+      fullDesc: "Mastery showcase of modern web standards with zero external dependencies (`zero node_modules`). Includes dynamic meta tags, full Open Graph and Twitter Card protocols, and a blazing-fast router achieving perfect lighthouse scores.",
+      architecture: "Pure web standards architecture: semantic HTML5, Vanilla CSS with custom properties, and modern ES6+ JavaScript.",
+      tags: ["Semantic HTML5", "Vanilla CSS3", "JavaScript ES6+", "Native SPA Router", "On-Page SEO", "WAI-ARIA"],
+      highlights: [
+        "Zero dependencies and instant load performance.",
+        "Client-side SPA router dynamically updating document titles and meta tags.",
+        "Comprehensive WAI-ARIA accessibility compatible with screen readers.",
+        "Fluid, 100% responsive layout powered by CSS Grid and Flexbox."
+      ],
+      color: "#f97316",
+      links: { demo: "#", github: "https://github.com", docs: "#" }
+    }
+  ],
+
+  skillsGroup: [
+    {
+      category: "Backend & Architecture",
+      icon: "server",
+      skills: [
+        { name: "Python / FastAPI", level: "Advanced" },
+        { name: "Node.js (Express & Fastify)", level: "Advanced" },
+        { name: "Java (Spring Boot / JPA)", level: "Upper-Intermediate" },
+        { name: "Clean Architecture & DDD", level: "Advanced" },
+        { name: "CQRS Lite & Hexagonal", level: "Advanced" },
+        { name: "Validation (Pydantic v2 / Zod)", level: "Advanced" }
+      ]
+    },
+    {
+      category: "Artificial Intelligence & GIS",
+      icon: "bot",
+      skills: [
+        { name: "Aider CLI (OpenRouter Free Models)", level: "Advanced" },
+        { name: "Google Gemini SDK (Structured JSON)", level: "Advanced" },
+        { name: "Meta Graph API (Instagram DMs)", level: "Advanced" },
+        { name: "Spatial GIS (GeoAlchemy2 / Shapely)", level: "Advanced" },
+        { name: "Computer Vision & OCR (OpenCV / Tesseract)", level: "Intermediate" },
+        { name: "Workflow Automation (n8n)", level: "Upper-Intermediate" }
+      ]
+    },
+    {
+      category: "Databases & Persistence",
+      icon: "database",
+      skills: [
+        { name: "PostgreSQL & PostGIS", level: "Advanced" },
+        { name: "MySQL / MariaDB", level: "Advanced" },
+        { name: "SQLite (Local & Desktop DBs)", level: "Advanced" },
+        { name: "Redis (Caching & Rate Limiting)", level: "Upper-Intermediate" },
+        { name: "Prisma ORM (v5 & v6)", level: "Advanced" },
+        { name: "SQLAlchemy Async & Alembic", level: "Advanced" }
+      ]
+    },
+    {
+      category: "Cryptography, Legal & Desktop",
+      icon: "shield",
+      skills: [
+        { name: "VeriFactu Compliance (RD 1007/2023)", level: "Specialist" },
+        { name: "SHA-256 Hash Chaining", level: "Advanced" },
+        { name: "XAdES-EPES Digital Signatures", level: "Advanced" },
+        { name: "Electron & Electron-Builder", level: "Advanced" },
+        { name: "CustomTkinter (GUI Python)", level: "Advanced" },
+        { name: "E2E Testing with Playwright", level: "Advanced" }
+      ]
+    },
+    {
+      category: "Frontend & Web Design",
+      icon: "layout",
+      skills: [
+        { name: "React 18 / 19 & TanStack Query", level: "Advanced" },
+        { name: "Tailwind CSS v3 & v4", level: "Advanced" },
+        { name: "Vanilla JS ES6+ & TypeScript", level: "Advanced" },
+        { name: "Semantic HTML5 & Advanced CSS3", level: "Expert" },
+        { name: "HTMX & Alpine.js", level: "Advanced" },
+        { name: "Bundlers (Vite)", level: "Advanced" }
+      ]
+    },
+    {
+      category: "Testing, DevOps & Core Competencies",
+      icon: "terminal",
+      skills: [
+        { name: "PyTest (Async Testing)", level: "Advanced" },
+        { name: "Jest & Supertest (Node.js)", level: "Advanced" },
+        { name: "Git & Conventional Commits", level: "Advanced" },
+        { name: "Discipline & High-Pressure Execution", level: "Key Strength" },
+        { name: "Leadership & Team Management", level: "Key Strength" },
+        { name: "Technical English (B1 Fluent)", level: "Proficient" }
+      ]
+    }
+  ],
+
+  experience: [
+    {
+      period: "March 2026 — July 2026",
+      role: "Full Stack Developer (Internship - 500h)",
+      company: "Win o Win Consulting",
+      location: "Valencia, Spain",
+      description: "Technical leadership in developing mission-critical enterprise software solutions:",
+      points: [
+        "Development of the certified VeriFactu desktop application using Electron, Prisma, and SQLite, ensuring immutability through SHA-256 hash chaining and XAdES-EPES digital signatures.",
+        "Implementation of the Instagram sales automation bot with FastAPI, Google Gemini SDK, and Meta Graph API.",
+        "Design of the asynchronous geolocation and perimeter geofencing API with GeoAlchemy2, Shapely, and Redis.",
+        "Interface and end-to-end workflow test automation with Playwright and PyTest."
+      ]
+    },
+    {
+      period: "October 2023 — October 2024",
+      role: "Operations Manager & Front Desk",
+      company: "Pádel A3",
+      location: "Quart de Poblet, Valencia",
+      description: "Customer experience management, operational facility coordination, and client retention:",
+      points: [
+        "Administration of technical equipment pro shop, café area, and financial reconciliations.",
+        "Algorithmic scheduling and balanced ranking matchmaking in regional sports tournaments.",
+        "Corporate social media management (Instagram) for brand engagement and sponsor acquisition."
+      ]
+    },
+    {
+      period: "January 2016 — January 2019",
+      role: "Sports Instructor & MMA / Wing Fight Coach",
+      company: "Self-Employed",
+      location: "Valencia",
+      description: "Led coaching sessions and technical athletic training for children and adults:",
+      points: [
+        "Cultivated rigorous discipline, high-pressure emotional control, active empathy, and assertive communication.",
+        "Custom mid-term and long-term athletic and technical development roadmaps."
+      ]
+    }
+  ],
+
+  education: [
+    {
+      degree: "Higher Technical Degree in Web Application Development (DAW)",
+      institution: "Centro de Estudios Solvam & UCADEMY",
+      year: "2024 — 2026",
+      details: "Specialized training in software architecture, client/server environments, relational/non-relational databases, and production deployments."
+    },
+    {
+      degree: "Higher Technical Degree in Physical Activities and Sports Animation (TAFAD)",
+      institution: "IES Molí del Sol (Mislata, Valencia)",
+      year: "2014 — 2016",
+      details: "Training methodology, athletic load planning, functional anatomy, and group dynamics."
+    },
+    {
+      degree: "Certified Wing Fight Instructor",
+      institution: "Organización Wing Fight Gandía",
+      year: "2016",
+      details: "Official coaching certification for sports pedagogy, self-defense, and martial arts."
+    }
+  ]
+};
+
+// Default portfolio data pointer (will be set according to active language)
+let PORTFOLIO_DATA = PORTFOLIO_DATA_ES;
+
+// Interface Translations Dictionary
+const I18N_UI = {
+  es: {
+    metaTitle: "Sergio Patón García — Software Engineer & Applied Architectures",
+    metaDescription: "Portafolio profesional de Sergio Patón García. Desarrollador Full Stack especializado en APIs asíncronas de alto rendimiento (FastAPI, Node.js, Spring Boot), Clean Architecture, desarrollo asistido por IA (Aider CLI con modelos gratuitos de OpenRouter) y cumplimiento normativo (VeriFactu).",
+    navHome: "Inicio",
+    navAider: "Aider & IA",
+    navProjects: "Proyectos",
+    navSkills: "Habilidades",
+    navCv: "CV.pdf ↓",
+    brandRole: "Software Engineer",
+    heroStatus: "SYS_STATUS: OPERATIONAL // FULL_STACK_ENGINEER",
+    heroTitle: "Arquitectura Limpia & Software de Alto Rendimiento.",
+    heroSubtitle: "Hola, soy <strong>Sergio Patón García</strong>. Especializado en APIs asíncronas (<strong>FastAPI, Node.js, Spring Boot</strong>), Clean Architecture e ingeniería asistida por IA con <strong>Aider CLI &amp; OpenRouter</strong>.",
+    heroDescription: "Formación técnica oficial en <strong>Desarrollo de Aplicaciones Web (DAW)</strong> con experiencia práctica en software de cumplimiento normativo (<strong>VeriFactu</strong>), geoprocesamiento espacial (<strong>GIS</strong>) y agentes autónomos de Inteligencia Artificial.",
+    heroBtnProjects: "Explorar Proyectos →",
+    heroBtnAider: "Ver Flujo Aider & IA",
+    heroBtnCv: "CV.pdf ↓",
+    profileStatus: "DISPONIBLE_PARA_RETOS",
+    profileQuote: "\"Ingeniería de software con Clean Architecture desacoplada, tipado estricto y aceleración en terminal con Aider.\"",
+    aiderTag: "// 01_METODOLOGÍA_AI_FIRST",
+    aiderTitle: "Desarrollo Acelerado con Aider & OpenRouter",
+    aiderSubtitle: "En el proyecto <strong>Fuerza Base</strong>, integro <strong>Aider CLI</strong> directamente en terminal conectado a modelos gratuitos de <strong>OpenRouter</strong>. Esto permite aplicar Clean Architecture estricta y tests automatizados con máxima velocidad y cero costes de API.",
+    aiderTabArch: "clean_architecture.py",
+    aiderTabTest: "test_suite.py",
+    aiderTabCommit: "git_commit.sh",
+    benefit1Num: "// 01 ARQUITECTURA",
+    benefit1Title: "Dominio Puro & Desacoplado",
+    benefit1Desc: "Aider respeta la regla de dependencia de Clean Architecture: el dominio permanece 100% aislado de frameworks y base de datos.",
+    benefit2Num: "// 02 EFICIENCIA",
+    benefit2Title: "Velocidad x3 con Rigor",
+    benefit2Desc: "Inferencia rápida con modelos gratuitos a través de OpenRouter para generar esquemas Pydantic v2 y puertos abstractos sin coste de API.",
+    benefit3Num: "// 03 VERIFICACIÓN",
+    benefit3Title: "Testing & Cobertura",
+    benefit3Desc: "Bucle de retroalimentación inmediata: los tests asíncronos en PyTest y Playwright validan cada componente antes de cualquier commit.",
+    projectsTag: "// 02_PORTFOLIO_ENGINEERING",
+    projectsTitle: "Proyectos Destacados de Ingeniería",
+    projectsSubtitle: "Sistemas analizados y construidos: desde facturación criptográfica homologada (VeriFactu) hasta microservicios espaciales GIS y SaaS deportivos.",
+    projectBtnDetails: "Detalles Técnicos →",
+    skillsTag: "// 03_TECHNICAL_STACK",
+    skillsTitle: "Competencias y Especialidades",
+    skillsSubtitle: "Inventario técnico consolidado en formación reglada DAW y entornos empresariales de producción.",
+    modalSpec: "// PROJECT_SPEC",
+    modalClose: "ESC ✕",
+    modalSec1: "// 01_DESCRIPCION_TECNICA",
+    modalSec2: "// 02_INTEGRACION_AIDER_OPENROUTER",
+    modalSec3: "// 03_ARQUITECTURA_Y_PATRONES",
+    modalSec4: "// 04_LOGROS_CLAVE",
+    modalSec5: "// 05_STACK_TECNOLOGICO",
+    footerStatus: "SYS_STATUS: ALL SYSTEMS NOMINAL — © 2026 SERGIO PATÓN GARCÍA",
+    footerHome: "↑ INICIO",
+    footerCv: "CV.PDF ↓",
+    cvFile: "CV_Sergio_Paton.pdf"
+  },
+  en: {
+    metaTitle: "Sergio Patón García — Software Engineer & Applied Architectures",
+    metaDescription: "Professional portfolio of Sergio Patón García. Full Stack Developer specialized in high-performance asynchronous APIs (FastAPI, Node.js, Spring Boot), Clean Architecture, AI-assisted development (Aider CLI with free OpenRouter models), and regulatory compliance (VeriFactu).",
+    navHome: "Home",
+    navAider: "Aider & AI",
+    navProjects: "Projects",
+    navSkills: "Skills",
+    navCv: "CV.pdf ↓",
+    brandRole: "Software Engineer",
+    heroStatus: "SYS_STATUS: OPERATIONAL // FULL_STACK_ENGINEER",
+    heroTitle: "Clean Architecture & High-Performance Software.",
+    heroSubtitle: "Hi, I'm <strong>Sergio Patón García</strong>. Specialized in asynchronous APIs (<strong>FastAPI, Node.js, Spring Boot</strong>), Clean Architecture, and AI-assisted engineering with <strong>Aider CLI &amp; OpenRouter</strong>.",
+    heroDescription: "Official technical degree in <strong>Web Application Development (DAW)</strong> with hands-on experience in regulatory compliance software (<strong>VeriFactu</strong>), spatial geoprocessing (<strong>GIS</strong>), and autonomous AI agents.",
+    heroBtnProjects: "Explore Projects →",
+    heroBtnAider: "View Aider & AI Flow",
+    heroBtnCv: "CV.pdf ↓",
+    profileStatus: "OPEN_TO_OPPORTUNITIES",
+    profileQuote: "\"Software engineering with decoupled Clean Architecture, strict typing, and terminal acceleration with Aider.\"",
+    aiderTag: "// 01_AI_FIRST_METHODOLOGY",
+    aiderTitle: "Accelerated Development with Aider & OpenRouter",
+    aiderSubtitle: "In the <strong>Fuerza Base</strong> project, I integrate <strong>Aider CLI</strong> directly in the terminal connected to free <strong>OpenRouter</strong> models. This enables strict Clean Architecture and automated testing with maximum speed and zero API costs.",
+    aiderTabArch: "clean_architecture.py",
+    aiderTabTest: "test_suite.py",
+    aiderTabCommit: "git_commit.sh",
+    benefit1Num: "// 01 ARCHITECTURE",
+    benefit1Title: "Pure & Decoupled Domain",
+    benefit1Desc: "Aider adheres to Clean Architecture dependency rules: the domain remains 100% isolated from frameworks and databases.",
+    benefit2Num: "// 02 EFFICIENCY",
+    benefit2Title: "3x Velocity with Rigor",
+    benefit2Desc: "Fast inference with free models via OpenRouter to generate Pydantic v2 schemas and abstract ports without API costs.",
+    benefit3Num: "// 03 VERIFICATION",
+    benefit3Title: "Testing & Coverage",
+    benefit3Desc: "Immediate feedback loop: asynchronous PyTest and Playwright tests validate every component prior to any commit.",
+    projectsTag: "// 02_PORTFOLIO_ENGINEERING",
+    projectsTitle: "Featured Engineering Projects",
+    projectsSubtitle: "Systems designed and built: from certified cryptographic invoicing (VeriFactu) to GIS spatial microservices and athletic SaaS platforms.",
+    projectBtnDetails: "Technical Details →",
+    skillsTag: "// 03_TECHNICAL_STACK",
+    skillsTitle: "Skills & Technical Stack",
+    skillsSubtitle: "Consolidated technical skill set from official DAW education and enterprise production environments.",
+    modalSpec: "// PROJECT_SPEC",
+    modalClose: "ESC ✕",
+    modalSec1: "// 01_TECHNICAL_DESCRIPTION",
+    modalSec2: "// 02_AIDER_OPENROUTER_INTEGRATION",
+    modalSec3: "// 03_ARCHITECTURE_AND_PATTERNS",
+    modalSec4: "// 04_KEY_ACHIEVEMENTS",
+    modalSec5: "// 05_TECH_STACK",
+    footerStatus: "SYS_STATUS: ALL SYSTEMS NOMINAL — © 2026 SERGIO PATÓN GARCÍA",
+    footerHome: "↑ HOME",
+    footerCv: "CV.PDF ↓",
+    cvFile: "english_CV.pdf"
+  }
 };
